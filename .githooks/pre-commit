@@ -1,0 +1,4 @@
+#!/bin/sh
+# Block the commit when a staged file contains a high or critical secret.
+root=$(git rev-parse --show-toplevel) || exit 1
+exec php "$root/keybleed.php" --staged --fail-on=high

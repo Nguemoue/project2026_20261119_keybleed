@@ -1,0 +1,11 @@
+{
+  "name": "nguemoue/keybleed",
+  "description": "Zero-dependency PHP CLI that catches leaked Laravel and API secrets before they hit Git.",
+  "type": "project",
+  "license": "MIT",
+  "bin": ["keybleed.php"],
+  "require": {
+    "php": ">=8.1"
+  },
+  "keywords": ["security", "secrets", "laravel", "cli", "dotenv", "ci"]
+}

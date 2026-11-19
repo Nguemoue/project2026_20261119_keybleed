@@ -1,0 +1,3 @@
+# Paths keybleed should skip. Prefix, or a glob (* and ?).
+# storage/app/private/
+# *.sql.gz
